@@ -26,19 +26,106 @@
 						<small>Created by Tom MacDougall</a></small>
 					</p>
 				</section>
-				<section>
+				<section  style="text-align: left;">
 					<h2>How can LLMs be used</h2>
-					In a coporate setting:
-					<ul>External/Production use</ul>
+					<h5 style="color:teal">...in a corporate setting</h5>
+					<ul>External/Production usage
 						<ul>
-							<li>Expose interface to client that makes calls to the OpenAI API and delivers a response</li>
+							<li>Expose augmented interface* to client that makes calls to the OpenAI API and delivers a response</li>
 						</ul>
-					<ul>Internal/Development use</ul>
-					<ul>
-						<li>Expose interface to client that makes calls to the OpenAI API and delivers a response</li>
+					</ul>
+					<ul>Internal/Development usage
+						</br>
+						<ul>
+							<li>Use OpenAI API and chat interface to aid in development</li>
+						</ul>
+					</ul>
+
+					</br></br>
+					<small>*The interface can use prompt engineering to limit the response to deisred content and reduce cost. 
+					In addition, custom code can transform the output and perform additional actions. Here is a <a href="https://www.gartner.com/en/articles/your-7-biggest-chatgpt-questions-answered">Gartner article</a> itemizes important questions about ChatGPT. Of note is number 7: What actions do you recommend we take?</small>
+				</section>
+				<section>
+					<section style="text-align: left;">
+						<h2>Background</h2>
+						<span style="font-size: 0.7em;color:teal">Generative Pre-trained Transformer (GPT)</span>
+						<ul style="font-size: 0.5em;">
+							<li>Generative - can generate text</li>
+							<li>Pre-trained - trained on a large corpus of text</li>
+							<li>Transformer - uses a neural network architecture</li>
+						</ul></br>
+						<a href="https://huggingface.co/blog/rlhf" style="font-size: 0.7em;color:teal">Reinforcement Learning from Human Feedback (RLHF)</a>
+						
+					</section>
+					<section style="text-align: left;">
+						<h2>What are GPTs?</h2>
+						<ul style="font-size: 0.5em;">
+							<li>A family of models (GPT, GPT-2, 3, 3.5, 4 ...so far)</li>
+							<li>Causal language models (not masked language models), predicts the next content based previous content, it then iterates making it auto-regressive</li>
+							<li>?</li>
+							<li>?</li>
+						</ul>
+					</section>
+					<section style="text-align: left;">
+						<h2>How is ChatGPT different?</h2>
+						<span style="color:teal">GPT-3</span></br>
+						<ul style="font-size: 0.5em;">
+							<li>GPT-based model that was trained using <a href="https://openai.com/blog/chatgpt" >reinforcement learning from human feedback (RLHF)</a> - look for November 30, 2022 entry</li>
+							<li>Pre-trained - trained on a large corpus of text</li>
+							<li>?</li>
+							<li>?</li>
+						</ul>
+					</section>
+				</section>
+				<section style="text-align: left;">
+					<h2>Pricing</h2>
+					<ul style="list-style-type: none">
+						<li>Chat GPT</br>
+							<a target="_blank"
+								href="https://openai.com/pricing">
+								<img src="images/chatgpt_price.png" style="height: 120px; margin: 0 auto 4rem auto; background: transparent;"
+									alt="chatgpt price">
+							</a>
+						</li>
+						<li> DaVinci (10 times more)</br>
+							<a target="_blank" href="https://openai.com/pricing">
+								<img src="images/davinci_price.png" style="height: 120px; margin: 0 auto 4rem auto; background: transparent;"
+									alt="davinci price">
+							</a>
+						</li>
 					</ul>
 				</section>
-				<section><h2>Pricing</h2></section>
+				<section style="text-align: left;">
+					<h2>How do we use LLMs</h2>
+					<span style="color:teal">Examples</span></br>
+					<ul style="font-size: 0.5em;">
+						<li>Generate internal code and configurations to help deliver solutions in product</li>
+						<li>Natural language to SQL</li>
+						<li>Natural language to conductor blueprint</li>
+						<li>Natural language to Wind River pipeline</li>
+					</ul>
+
+					<small>Suggestion: results should include natural language with visuals</small>
+				
+				</section>
+				<section style="text-align: left;">
+					<h2>Concerns</h2>
+					<ul style="font-size: 0.5em;color:teal">
+						<li>Privacy</li>
+						<li>Consistency/Reproducibility</li>
+						<li>Cost</li>
+						<li>Accuracy</li>
+					</ul>
+					</br></br>
+					<span style="font-size: 0.5em;color:teal">References</span></br>
+					<a href="https://help.openai.com/en/articles/6783457-chatgpt-general-faq" style="font-size: 0.3em;">ChatGPT General FAQ</a>
+					
+				</section>
+				<section>
+					<h2>What is coming?</h2>
+					
+					GPT-4 
+				</section>
 			</div>
 		</div>
 
